@@ -1,7 +1,7 @@
 function [x, fx] = fibonaccimethod(f, a, b, tol, minflag)
 
 n = 1;
-while fibonacci(n) <= ((b-1) / tol)
+while fibonacci(n) <= ((b-a) / tol)
     n = n + 1;
 end
 

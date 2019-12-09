@@ -40,7 +40,7 @@ c = 1 - h/2 .* w(x);
 e = h^2 .* u(x);
 
 % tridijagonalna matrica A
-A = zeros(n-1) + diag(d(1:n-1)) + diag(a(2:n-1), -1) + diag(c(1:n-2), 1)
+A = zeros(n-1) + diag(d(1:n-1)) + diag(a(2:n-1), -1) + diag(c(1:n-2), 1);
 
 % b vektor
 b = zeros(n-1, 1);
